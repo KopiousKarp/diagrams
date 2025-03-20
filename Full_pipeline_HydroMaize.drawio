@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.1.1">
+  <diagram name="Page-1" id="XKcA_pU5f5cIYYNXXlob">
+    <mxGraphModel dx="1674" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wsi-DFMHmE7BhEvAm292-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wsi-DFMHmE7BhEvAm292-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Input directory&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;of images&lt;/font&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" parent="1" vertex="1">
+          <mxGeometry x="10" y="70" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wsi-DFMHmE7BhEvAm292-4" target="wsi-DFMHmE7BhEvAm292-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-4" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=90;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="205" y="35" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-5" value="&lt;div&gt;Architecture Encoder &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="235" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wsi-DFMHmE7BhEvAm292-6" target="wsi-DFMHmE7BhEvAm292-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-6" value="Embedding" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="400" y="80" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wsi-DFMHmE7BhEvAm292-8" target="wsi-DFMHmE7BhEvAm292-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-8" value="&lt;div&gt;Classifier&lt;/div&gt;&lt;div&gt;Head&lt;/div&gt;" style="triangle;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="510" y="70" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wsi-DFMHmE7BhEvAm292-10" target="wsi-DFMHmE7BhEvAm292-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="wsi-DFMHmE7BhEvAm292-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-10" value="Discard?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="630" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-14" value="&lt;div&gt;No measurements possible;&lt;/div&gt;&lt;div&gt;Image discarded&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="610" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-15" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-90;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="790" y="35" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-17" value="&lt;div&gt;Architecture Decoder&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="830" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-18" value="0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="175" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-19" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="700" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-20" value="&lt;div&gt;Phenotype Measurements &lt;br&gt;&lt;/div&gt;&lt;div&gt;with CV tools&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wsi-DFMHmE7BhEvAm292-21" target="wsi-DFMHmE7BhEvAm292-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-21" value="&lt;div&gt;Multiclass &lt;br&gt;&lt;/div&gt;&lt;div&gt;Masks&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="80" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wsi-DFMHmE7BhEvAm292-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="wsi-DFMHmE7BhEvAm292-15" target="wsi-DFMHmE7BhEvAm292-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
